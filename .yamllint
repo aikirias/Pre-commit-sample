@@ -10,10 +10,10 @@ rules:
     brackets: enable
     colons: enable
     commas: enable
-    comments:
-        level: warning
-    comments-indentation:
-        level: warning
+    comments: enable
+        #level: warning
+    comments-indentation: enable
+        #level: warning
     document-end: disable
     document-start:
         level: warning
@@ -33,4 +33,4 @@ rules:
         level: warning
     line-length:
         max: 100
-        level: warning
+        #level: warning

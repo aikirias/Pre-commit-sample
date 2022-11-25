@@ -15,7 +15,7 @@ make install && \
 ldconfig /usr/local/lib && \
 cd .. && rm -f Python-3.7.9.tgz && rm -rf Python-3.7.9 && \
 ln -s /usr/local/bin/python3 /usr/local/bin/python && \
-apt-get clean 
+apt-get clean
 # && \
 #rm -rf /var/lib/apt/lists/*
 

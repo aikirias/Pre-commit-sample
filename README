@@ -5,3 +5,24 @@ You need to install the following tools to use the standards of the team:
 . pip install pre-commit
 . in the repo root folder run: pre-commit install
 . and also: pre-commit install --hook-type commit-msg
+
+# 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
+
+## Commits message standard
+
+as a good practice, we are going to follow the next comment system for the commits:
+
+        FEAT: New feature
+        FIX: an error fix
+        DOCS: Changes in documentation or in the comments on the code
+        STYLE: Changes just in the formatting of the code (meaning blank spaces, formatting, missing semicolon, etc.)
+        REFACTOR: A change in the code that does not fix an error nor add a feature
+        TEST: Adding test (Creating a new test must be considered as FEAT)
+        PERF: Change in code that boosts performance
+        REVERT: Rollbacks (that particular commit must be commented in the message)
+        CHORE: Changes in thhe build (compile) process or auxiliary tools and/or libraries such as documentation generators
+
+
+EXAMPLE
+
+git commit -m "FIX: fixed user not able to log in issue"
