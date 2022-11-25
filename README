@@ -9,7 +9,23 @@ You need to install the following tools to use the standards of the team:
 maybe you will need to install golarg: sudo apt install golang-go
 and cargo : curl https://sh.rustup.rs -sSf | sh
 
-# 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
+HOW TO USE 
+
+basically once you have all installed you could create your new files or make a modification on the existing files and once you make a commit all the tests are going to be made 
+on the files that you commited 
+
+you also could run the tests across all the files in the repository:
+
+pre-commit run --all-files 
+
+if you only want to run the tests for one file you could use:
+
+pre-commit run --files 'you/file/path/file.format'
+
+
+if you want to, you could update all your hooks by running
+
+pre-commit autoupdate
 
 ## Commits message standard
 
