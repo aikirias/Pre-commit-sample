@@ -6,6 +6,9 @@ You need to install the following tools to use the standards of the team:
 . in the repo root folder run: pre-commit install
 . and also: pre-commit install --hook-type commit-msg
 
+maybe you will need to install golarg: sudo apt install golang-go
+and cargo : curl https://sh.rustup.rs -sSf | sh
+
 # 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
 
 ## Commits message standard
