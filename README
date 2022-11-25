@@ -1,0 +1,7 @@
+# Pre-commit-sample
+
+You need to install the following tools to use the standards of the team:
+
+. pip install pre-commit
+. in the repo root folder run: pre-commit install
+. and also: pre-commit install --hook-type commit-msg

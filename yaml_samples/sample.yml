@@ -1,0 +1,22 @@
+---
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+sample:
+
+    large_line: "this should be shorter because this is a yaml file and not a primary text book, so you need to fix me now.."
+    neccesary_large_line: this is also waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay to large but if we put the following comment then yamlint is going to skip this only line # yamllint disable-line
+
+    repo: https://github.com/miki725/importanize/
+          # some unformated comment
+    repo: "https://github.com/pryorda/dockerfilelint-precommit-hooks"
+     # some really really really really really really really really really really really really really really really really really really really really really really really  large comment
+    # yamllint disable rule:colons
+    Lorem       : ipsum
+      dolor       : sit amet,
+    consectetur : adipiscing elit
+      # yamllint enable
+
+
+
+
+
