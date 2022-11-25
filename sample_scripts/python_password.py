@@ -5,15 +5,15 @@ consumer = client.subscribe(topic="customerID_2", subscription_name="hydrate-tes
 def hydrate_customers_ID(customers_id):
     conn = pyodbc.connect(
         "Driver={ODBC Driver 18 for SQL Server};"
-        "Server=ReportDB01.dev.pposervices.local;"
-        "Database=ASIDb;"
-        "uid=p1Pulsar01;"
-        "pwd=Csr)72WcNPVYxkn#r;"
+        "Server=Reexample.example.local;"
+        "Database=database;"
+        "uid=pulsar1;"
+        "pwd=Csr)asdkasdkajsdjl#r;"
         "Encrypt=yes;"
         "TrustServerCertificate=yes;"
     )
     cursor = conn.cursor()
-    query = "[ASIDb].[dbo].[dbsp_GetGenericUserProfileDataProfile_2] '{}' ".format(
+    query = "[dbo].[some_stored_procedure] '{}' ".format(
         customers_id
     )
     cursor.execute(query)
