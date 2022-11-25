@@ -48,3 +48,10 @@ repos:
       hooks:
           - id: commitizen
             stages: [commit-msg]
+        rev: v0.1.5
+      hooks:
+          - id: ripsecrets
+    - repo: https://github.com/zricethezav/gitleaks
+      rev: v8.12.0
+      hooks:
+          - id: gitleaks
